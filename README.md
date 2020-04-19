@@ -1,5 +1,5 @@
 # CodeWars-Training-katas
- Katas list of Training JS series
+ Katas list of Training JS series **Keep In mind some of this katas are using old syntax! (var) which is not the standart anymore.
  - [#1: create your first JS function helloWorld](http://www.codewars.com/kata/571ec274b1c8d4a61c0000c8)
  - [#2: Basic data types--Number](http://www.codewars.com/kata/571edd157e8954bab500032d)
  - [#3:  Basic data types--String](http://www.codewars.com/kata/571edea4b625edcb51000d8e)
@@ -44,6 +44,57 @@
  - [#42: Regular Expression--(?:), (?=) and (?!)](http://www.codewars.com/kata/573fb9223f9793e485000453)
 
 # SOLUTIONS
-**Each kata will be posted here below with their solutions.
+**Each kata will be posted here below with my personal solutions.
+
+- 1: create your first JS function helloWorld
+```js
+function simpleHelloWorld(WeWillPrintThis) {
+ console.log(WeWillPrintThis) //This will be printed to the console.
+}
+let answer = simpleHelloWorld('Hello there!') // Change the content between the (' ') to print something else on your console.
+```
+
+If you want a soft introduction to something more complicated head to: https://codesandbox.io and Create a Sandbox in React, then just remplace all the code  with the following below! **It might be too complicated to understand! but don't worry you will understand it sooner than later!.
+
+
+```
+import React, { useState } from "react";
+import "./styles.css";
+
+function App() {
+  //This tells the function UseInput that we are using text in the input field
+  const [usermessage, userInput] = useInput({ type: "text" }); 
+
+  function useInput({ type /*...*/ }) {
+    const [value, setValue] = useState(""); //This sets the state of the message, basically how the message is at the start.
+    const input = (
+      <input
+        value={value}
+        onChange={e => setValue(e.target.value)}
+        type={type}
+      />
+    );
+    return [value, input]; // 
+  }
+
+  return (
+  // This code contains  <h1> / <h2> / <p> and <div> are components from the HTML syntax 
+    <div className="App">
+      <h1>Basic usage of hooks!</h1> 
+      
+      //Here you can see between curly brackets we add the message thats being passed in the userInput
+      <p> You can add to this message what ever you like! {usermessage} </p>
+      
+      //Here we are capable of writing a message in an input fiel (HTML)
+      <p> {userInput} use me to add something on the top message! </p>
+      <h2>Start editing to see some magic happen!</h2>
+    </div>
+  );
+}
+export default App;
+```
+
+
+
 
 Credits to [myjinxin2015](https://github.com/myjinxin2015) for his/her awesome list of Training katas.
