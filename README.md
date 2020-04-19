@@ -57,7 +57,7 @@ let answer = simpleHelloWorld('Hello there!') // Change the content between the 
 If you want a soft introduction to something more complicated head to: https://codesandbox.io and Create a Sandbox in React, then just remplace all the code  with the following below! **It might be too complicated to understand! but don't worry you will understand it sooner than later!.
 
 
-```
+```js
 import React, { useState } from "react";
 import "./styles.css";
 
