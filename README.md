@@ -1,5 +1,8 @@
 # CodeWars-Training-katas
- Katas list of Training JS series **Keep In mind some of this katas are using old syntax! (var) which is not the standart anymore.
+ Katas list for Training the basics of JavaScript **Keep In mind some of this katas are using old syntax! (var) which is not the standart anymore. 
+
+[WIP] Changing these katas to more up to date syntax.
+
  - [#1: create your first JS function helloWorld](http://www.codewars.com/kata/571ec274b1c8d4a61c0000c8)
  - [#2: Basic data types--Number](http://www.codewars.com/kata/571edd157e8954bab500032d)
  - [#3:  Basic data types--String](http://www.codewars.com/kata/571edea4b625edcb51000d8e)
@@ -97,4 +100,4 @@ export default App;
 
 
 
-Credits to [myjinxin2015](https://github.com/myjinxin2015) for his/her awesome list of Training katas.
+Credits to [myjinxin2015](https://github.com/myjinxin2015) for this awesome list of Training katas.
