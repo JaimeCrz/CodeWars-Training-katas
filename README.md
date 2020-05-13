@@ -1,14 +1,14 @@
 # [WIP] - Does coding challenges and puzzles help you with programming?
 
-⋅⋅* What is this repository about?
+* What is this repository about?
 
 This is a personal project where I'll be using daily certain coding challenge websites for later make an article and review based on how useful they have been for me as a newly comer to the programming world.
 
-In each folder, I'll be posting examples of challenges that I have done on those sites, the challenge you might be stuck at could be explained there! Therefore it's worth checking the folders out. :) 
+In each folder, I'll be posting examples of challenges that I have done on those sites, the challenge you might be stuck at could be explained there! Could be worth checking it out :) . 
 
 * What languages will you be using?
 
-I'm a Full Stack developer, thus I'll be using JavaScript / Ruby and Python.
+I'm a Full Stack Web Developer, hence I'll be using JavaScript / Ruby and Python.
 
 * When will be this article released?
 
