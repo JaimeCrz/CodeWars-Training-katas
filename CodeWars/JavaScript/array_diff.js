@@ -20,3 +20,9 @@ function arrayDiff(a, b) {
 
 //Comments: I love  Codewars as I started with it, although it can be challenging for someone who is starting,
 // The training challenges will requiere you to focus 100% and reherse your basics of coding.
+
+//Refactored answer:
+
+function arrayDiff(a, b) {
+  return a.filter(x => !b.includes(x));
+}
