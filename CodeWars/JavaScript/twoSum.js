@@ -11,5 +11,16 @@ function twoSum(numbers, target) {
   }
 }
 
+function twoSum(nums,target){
+  const arr = [];
+  nums.map(function(x,ind1){
+    nums.map(function(y,ind2){
+      if(x + y == target && ind1 != ind2)
+      arr.push(ind1,ind2)
+    });
+  });
+  return [arr[0],arr[1]]
+}
+
 //Comments: A fundamentals kata, great for those starting to understand how looping works.
   
