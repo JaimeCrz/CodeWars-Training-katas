@@ -8,4 +8,4 @@ function removeDuplicateWords (s) {
 return uniqueList.join(' ')
 }
 
-//Comments. nice usage of the filtering option in JS.
+//Comments. nice usage of the filtering option in JS. keep in mind, in some browser the filter option isn't allowed.
